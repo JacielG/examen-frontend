@@ -1,0 +1,18 @@
+.computadora {
+    display: grid;
+    grid-template-rows: 80px 60px calc(100% - 260px);
+}
+
+.computadora .ms-CommandBar {
+    background-color: #f3f2f1;
+}
+
+.computadora .ms-CommandBar button{
+    background-color: #f3f2f1;
+}
+
+.computadora .ms-CommandBar button :hover{
+    background-color: #b99979;
+}
+
+.contenedorLista { overflow: auto;}

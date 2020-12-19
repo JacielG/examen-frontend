@@ -1,0 +1,18 @@
+.marca {
+    display: grid;
+    grid-template-rows: 80px 60px calc(100% - 260px);
+}
+
+.marca .ms-CommandBar {
+    background-color: #f3f2f1;
+}
+
+.marca .ms-CommandBar button{
+    background-color: #f3f2f1;
+}
+
+.marca .ms-CommandBar button :hover{
+    background-color: #b99979;
+}
+
+.contenedorLista { overflow: auto;}
